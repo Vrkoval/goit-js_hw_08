@@ -1,8 +1,9 @@
 
 import { galleryItems } from './gallery-items';
 // Change code below this line
-import SimpleLightbox from 'simplelightbox';
-import 'simplelightbox/dist/simple-lightbox.min.css';
+import SimpleLightbox from "simplelightbox";
+//import { SimpleLightbox } from './vendor/simpleLightbox';
+import "simplelightbox/dist/simple-lightbox.min.css";
 const galleryElem=document.querySelector(".gallery");
 function createGalleryItem(items) {
     return items
@@ -47,4 +48,4 @@ function createGalleryItem(items) {
             return;
           }
         };
-console.log(galleryItems);
+// console.log(galleryItems);
